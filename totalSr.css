@@ -1,0 +1,44 @@
+/*table*/
+.addBorder{border:solid 1px #999;}
+.table_container .table_title.blue{background: #3bb8e4;}
+.table_container .table_title.blue span{color:#fff;}
+.table_container ul li:hover{background: #eee;}
+.table_container .table_ctrl_department{width:100%;background: #fafafa;height:40px;}
+.table_container .table_ctrl_department .changeDateBtn{display:none;cursor:pointer;width:50px;height:40px;float:left;font-size:24px;line-height: 40px;text-align: center;z-index:10;background: #fcfcfc;font-family: sans-serif;}
+.table_container .table_ctrl_department .ctrlItemContainer{height:100%;float:left;width:810px;overflow: hidden;}
+.table_container .table_ctrl_department .ctrlItemContainer .cilist{height:100%;width:4000px;}
+.table_container .table_ctrl_department .ctrl_item{cursor:pointer;width:72px;padding:5px 8px 0 8px;border:solid 1px #3bb8e4;border-radius: 4px 4px 0 0;border-bottom:none;text-align: center;height:100%;float:left;font-size:16px;line-height: 30px;}
+.table_container .table_ctrl_department .ctrl_item.active{background: #3bb8e4;/*height:50px;margin-top:-10px;line-height: 40px;*/cursor: default;color:#fff;}
+.table_container .table_ctrl_department select{height:30px;margin-top:5px;float:right;margin-right:20px;width:150px;border:solid 1px #ccc;padding-left:10px;}
+.table_container .btns{width:150px;height:30px;line-height: 30px;border-radius: 6px;overflow: hidden;text-align: center;background: #3bb8e4;color:#fff;float:right;margin-top:30px;margin-right:20px;cursor: pointer;-webkit-transition: all 0.3s ease-out;-moz-transition: all 0.3s ease-out;-o-transition: all 0.3s ease-out;-ms-transition: all 0.3s ease-out;transition: all 0.3s ease-out;}
+.table_container .btns:hover{background: #3b98e4;}
+/*end of table*/
+
+/*relates of graph*/
+.graphBox{width:100%;background: #fcfcfc;margin-top:20px;}
+.graphBox .graphTitle{width:100%;height:30px;font-size:14px;background: #efefef;color:#000;line-height: 30px;padding:5px 0;text-align: right;}
+.graphBox .graphTitle span{margin-left:5%;height:30px;display: block;float:left;cursor: pointer;}
+.graphBox .graphTitle span.active{color:#3bb8e4;}
+.graphBox .graphTitle input[name="startDate"]{height:26px;width:10%;padding-left:10px;border:solid 1px #ccc;}
+.graphBox .graphTitle input[type=button]{cursor:pointer;width:7%;background: #3bb8e4;color:#fff;height:24px;line-height: 24px;border-radius: 4px;text-align: center;overflow: hidden;margin:0 20px;-webkit-transition: all 0.3s ease-out;-moz-transition: all 0.3s ease-out;-o-transition: all 0.3s ease-out;-ms-transition: all 0.3s ease-out;transition: all 0.3s ease-out;}
+.graphBox .graphTitle input[type=button]:hover{background: #fff;color:#3bb8e4;}
+.graphBox .graphTitle span.right{float:right;margin-left:0;margin-right:3%;}
+.graphBox .graph{width:100%;height:400px;}
+.graphBox .moveBtn{cursor:pointer;width:60px;height:400px;position: absolute;top:40px;font-size:40px;line-height: 400px;text-align: center;z-index:10;background: #fcfcfc;font-family: sans-serif;}
+.graphBox .moveBtn.left{left:0;}
+.graphBox .moveBtn.left:hover{box-shadow: 2px 0 2px rgba(0,0,0,0.4);}
+/*.graphBox .moveBtn.left:active{box-shadow: 2px 0 2px rgba(0,0,0,0.4) inset; }*/
+.graphBox .moveBtn.right{right:0;}
+.graphBox .moveBtn.right:hover{box-shadow: -2px 0 2px rgba(0,0,0,0.4);}
+/*.graphBox .moveBtn.right:active{box-shadow: -2px 0 2px rgba(0,0,0,0.4) inset;}*/
+/*end of relates of graph*/
+.gross{width:100%; height:100px; background: #fff;margin-top:20px;}
+.gross .dataContainer{width:32%;height:100px;margin-right:1%;background: #f0f0f0;overflow: hidden;position: relative;font-size:18px;float:left;}
+.gross .dataContainer:nth-child(n){margin-right:1%}
+.gross .dataContainer:last-child{margin-right:0;}
+.gross .dataContainer .title{position: absolute;top:10px;left:10px;color:#3bb8e4}
+.gross .dataContainer.campaignName .title{left:0;right:0;font-size:26px;color:#3bb8e4;margin:0 auto;width:100%;text-align: center;}
+.gross .dataContainer .datas{position: absolute;bottom:20px;right:30px;font-size:24px;}
+.gross .dataContainer.campaignName .datas{right:0;left:0;margin:0 auto;font-size:24px;width:100%;text-align: center;}
+.gross .dataContainer.campaignName{cursor: pointer;}
+/**/
